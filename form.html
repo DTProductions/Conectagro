@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap-5.3.3-dist/css/lux.bootstrap.min.css">
+    <link rel="stylesheet" href="\css\estilos.css">
+    <link rel="stylesheet" href="lib/bootstrap-icons/font/bootstrap-icons.min.css">
+    <title>Responsivo</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark py-4">
+            <div class="container">         
+              <a class="navbar-brand" href="/">
+                <i class="bi bi-bank fs-5"></i>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="menuPrincipal">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html">Principal</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/melhoresFuncionarios.html">Produtos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/contato.html">Contato</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Carrinho</a>
+                  </li>
+                </ul>
+
+                <span class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-danger" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Olá,<b class="">Felipe</b>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Meus Pedidos</a></li>
+                      <li><a class="dropdown-item" href="#">Alterar Perfil</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Sair</a></li>
+                    </ul>
+                 </span>
+              </div>
+              <div class="navbar-nav">
+                <form class="d-flex" role="search">
+                    <input class="form-control mx-2" type="search" placeholder="Buscar...">
+                    <button class="btn btn-primary" type="submit">Buscar</button>
+                  </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div class="container">
+        <main class="py-3">
+            <form class="w-50 mx-auto">
+                <h1 class="text-center">Login</h1>
+                <hr>
+                <div class="mb-3">
+                    <label for="txtEmail">E-mail</label>
+                    <input type="text" class="form-control" id="txtEmail">
+                </div>
+            
+                <div class="mb-3">
+                    <label for="txtSenha">Senha</label>
+                    <input type="password" class="form-control" id="txtSenha">
+                </div>
+
+                <div class="mb-3">
+                    <button class="btn btn-primary bnt-lg w-100">Entrar</button>
+                </div>
+
+                <div class="text-center">
+                    <p><a href="#" class="text-decoration-none">Quero me cadastrar</a></p>
+                    <p><a href="#" class="text-decoration-none">Esquci minha senha</a></p>
+                </div>
+
+            </form>
+
+        </main>
+    </div>
+    <footer class="bg-dark text-light text-center p-3">
+        <p class="m-0">
+            &copy; 2014 Some copyright message Felipe Moreira <br>
+            Todos os direitos reservados
+        </p>
+    </footer>
+    </div>
+    <script src="lib/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

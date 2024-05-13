@@ -1,0 +1,74 @@
+.h-100px{
+    height: 100px;
+}
+
+.vh-10{
+    min-height: 10vh;
+} 
+
+.vh-20{
+    min-height: 20vh;
+}
+.vh-30{
+    min-height: 30vh;
+}
+.vh-40{
+    min-height: 40vh;
+}
+.vh-50{
+    min-height: 50vh;
+}
+.vh-60{
+    min-height: 60vh;
+}
+.vh-70{
+    min-height: 70vh;
+}
+.vh-80{
+    min-height: 80vh;
+}
+.vh-90{
+    min-height: 90vh;
+}
+
+footer a{
+    display: block;
+    text-decoration: none;
+    color: var(--bs-light);
+} 
+
+main.container{
+    margin-bottom:  136px;
+}
+
+.card-text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+
+} 
+
+.table tr>td:nth-of-type(1),
+.table tr>td:nth-of-type(3),
+.table tr>td:nth-of-type(4),
+.table tr>td:nth-of-type(5),
+.table tr>td:nth-of-type(6),
+.table tr>th:nth-of-type(1),
+.table tr>th:nth-of-type(3),
+.table tr>th:nth-of-type(4),
+.table tr>th:nth-of-type(5),
+.table tr>th:nth-of-type(6) {
+    white-space: nowrap;
+    width: 1%;
+    text-align: center;
+} 
+
+/* .carousel-control-prev{
+    justify-content: start !important;
+}
+
+.carousel-control-prev{
+    justify-content: end !important;
+} */

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap-5.3.3-dist/css/lux.bootstrap.min.css">
+    <link rel="stylesheet" href="\css\estilos.css">
+    <link rel="stylesheet" href="lib/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <title>Contrato de Funcionário</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-success navbar-dark py-4" style="height: 80px;">
+            <div class="container">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="img/imgprodutos/Logo.png" alt="Logo" class="logo-img" style="width: 70px;">
+                    <span class="d-inline-block">ConectAgro</span>
+                </a>        
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="menuPrincipal">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/index.html">Principal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/melhoresFuncionarios.html">Melhores Avaliações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contato.html">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/login.html">Login</a>
+                        </li>
+                    </ul>
+                    <span class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <b class="">Tipo do Usuario</b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/contrate.html">Contratante</a></li>
+                            <li><a class="dropdown-item" href="/contratoFuncionarios.html">Funcionarios</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Sair</a></li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
+        </nav>    
+    </header>
+    <div class="container">
+        <main class="py-3">
+            <section class="container mt-4">
+                <div class="text-center">
+                    <h1>Dados do contratante - Produtor </h1>
+                </div>
+                <hr>
+                <form class="w-75 mx-auto" id="formularioContrato">
+                    <div class="mb-3">
+                        <label for="txtNome" class="form-label">Nome Completo</label>
+                        <input type="text" class="form-control" id="txtNome" placeholder="Digite o nome completo">
+                    </div>
+                    <div class="mb-3">
+                        <label for="txtCPF" class="form-label">CPF</label>
+                        <input type="text" class="form-control" id="txtCPF" placeholder="Digite o CPF">
+                    </div>
+                    <div class="mb-3">
+                        <label for="txtEndereco" class="form-label">Endereço</label>
+                        <input type="text" class="form-control" id="txtEndereco" placeholder="Digite o endereço">
+                    </div>
+                    <div class="mb-3">
+                        <label for="txtCargo" class="form-label">Cargo</label>
+                        <input type="text" class="form-control" id="txtCargo" placeholder="Digite o cargo">
+                    </div>
+                    <div class="mb-3">
+                        <label for="txtTelefone" class="form-label">Telefone</label>
+                        <input type="text" class="form-control" id="txtTelefone" placeholder="Digite o Telefone">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="txtFoto" class="form-label">Foto do Contratante</label>
+                        <input class="form-control" type="file" id="txtFoto">
+                    </div>
+                    <div class="mb-3">
+                        <label for="txtObservacoes" class="form-label">Observações</label>
+                        <textarea class="form-control" id="txtObservacoes" rows="3" placeholder="Digite observações relevantes sobre o contrato"></textarea>
+                    </div>
+                    
+                    <!-- Campos do Contratante -->
+                    <div class="mb-3">
+                        <label for="txtNomeContratante" class="form-label">Nome do Contratante</label>
+                        <input type="text" class="form-control" id="txtNomeContratante" placeholder="Digite o nome do contratante">
+                    </div>
+                    <div class="mb-3">
+                        <label for="txtCPNJContratante" class="form-label">CNPJ do Contratante</label>
+                        <input type="text" class="form-control" id="txtCNPJContratante" placeholder="Digite o CNPJ do contratante">
+                    </div>
+                    <div class="mb-3">
+                        <label for="txtEmailContratante" class="form-label">Email do Contratante</label>
+                        <input type="email" class="form-control" id="txtEmailContratante" placeholder="Digite o email do contratante">
+                    </div>
+                    <!-- Fim dos campos do Contratante -->
+                    
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Finalizar Contrato</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        
+
+    </div>
+
+    <script src="lib/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
